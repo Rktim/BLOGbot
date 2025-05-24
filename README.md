@@ -9,6 +9,8 @@ BLOGbot lets users input any blog URL, fetches the content, and builds a convers
 
 ---
 
+[![Try It](https://img.shields.io/badge/Try%20Here-blue?style=for-the-badge)](https://huggingface.co/spaces/Rktim/Blogbot)
+
 ## 🔧 Tech Stack
 
 * **LLM Backend:** [Groq](https://groq.com) + Open-source models (via `langchain_groq`)
