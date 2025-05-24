@@ -115,8 +115,7 @@ BLOGbot/
 ---
 
 ## 🛡️ License
-
- ![License](LICENSE) . Feel free to use, modify, and share!
+![License](LICENSE) . Feel free to use, modify, and share!
 
 ---
 
