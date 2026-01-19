@@ -54,56 +54,6 @@ graph TD;
     G --> H[Streamlit displays response];
 ```
 
----
-
-## 🧪 Getting Started
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/Rktim/BLOGbot.git
-cd BLOGbot
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Setup `.env`
-
-Create a `.env` file and add your Groq API key:
-
-```env
-GROQ_API_KEY=your_groq_key_here
-```
-
-### 4. Run the App
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 📂 Project Structure
-
-```bash
-BLOGbot/
-│
-├── app.py                  # Streamlit frontend
-├── blog_parser.py          # HTML content fetching
-├── chain_builder.py        # Embedding, vectorstore, LLM chain
-├── requirements.txt
-├── .env
-├── assets/
-│   └── banner.png          # UI & preview assets
-└── utils/
-    └── helpers.py          # Miscellaneous utilities
-```
-
----
 
 ## 🧠 Models Used
 
@@ -134,11 +84,4 @@ Want to add multi-blog support? Improve summarization? Jump in! PRs and issues a
 * [HuggingFace Transformers](https://huggingface.co/)
 * [Streamlit](https://streamlit.io/)
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
-
----
-
-## 📬 Contact
-
-For feedback or collaboration: [raktmxx@gmail.com](mailto:raktmxx@gmail.com)
-
 
